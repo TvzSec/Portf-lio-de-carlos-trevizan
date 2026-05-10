@@ -80,7 +80,7 @@ nav a:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 30px;
+    padding: 160px 30px 30px;
 }
 
 .hero-text h2{
@@ -310,7 +310,7 @@ HOBBIES
 }
 
 .hobby-card{
-    background: #111827;
+    background: var(--card);
     border: 1px solid #1f2937;
     padding: 30px;
     border-radius: 15px;
@@ -327,6 +327,10 @@ HOBBIES
     font-size: 2rem;
     color: #3b82f6;
     margin-bottom: 15px;
+}
+
+.hobby-card p{
+    color: var(--text);
 }
 
 /* =========================
